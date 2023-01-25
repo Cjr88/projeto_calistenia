@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+body > header{
+    background: rgb(16, 13, 13);
+    color: #fff;
+    padding: 26px;
+    text-transform: uppercase;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container h2{
+    color: rgb(46, 41, 41);
+    margin-top: 15px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.container img{
+    margin-top: 10px;
+}
+section .articles{
+    display: flex;
+    margin-bottom: 60px;
+}
+section .about{
+    margin: 150px;
+}
+section .articles h3{
+    margin: 5px;
+    color: rgb(32, 47, 47);
+    font-size: 26px;
+}
+section .articles2 h3{
+    margin: 5px;
+    color: rgb(32, 47, 47);
+    font-size: 26px;
+}
+section .about h3{
+    color: rgb(46, 41, 41);
+    font-size: 50;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+section .articles2{
+    display: flex;
+}
+p{
+font-size: 1.2rem;
+font-family: 'Times New Roman', Times, serif;
+}
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+    background: rgb(16, 13, 13);
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    margin-top: 80px;
+}
+section .articles img{
+    border-radius: 20px;
+    width: 100%;
+}
+.articles2 img{
+    border-radius: 20px;
+    width: 100%;
+}
+section .articles a{
+    text-decoration: none;
+    color: rgb(18, 2, 2);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+}
+.articles2 a{
+    text-decoration: none;
+    color: rgb(18, 2, 2);
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+footer .container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    color: #fff;
+    margin: 2px;
+
+   
+}
+form button{
+    background-color: rgb(215, 193, 167);
+}
+form button:hover{
+    background-color: bisque;
+}
+form textarea{
+    resize: none;
+}
+input:focus, textarea:focus{
+    outline-color: blanchedalmond;
+    
+}
